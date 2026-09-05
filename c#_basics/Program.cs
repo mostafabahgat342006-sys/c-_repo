@@ -26,7 +26,18 @@ internal class Program
         object obj = book;
 
         Console.WriteLine(obj);
-        
+        Console.WriteLine("----------------------------");
+
+
+        Console.WriteLine(book.ToString());
+
+            Console.WriteLine(book.Equals(book));
+
+            Console.WriteLine(book.GetHashCode());
+
+            Console.WriteLine(book.GetType());
+
+        Console.WriteLine("----------------------------");
 
 
 
@@ -34,6 +45,5 @@ internal class Program
 
 
 
-      
     }
 }

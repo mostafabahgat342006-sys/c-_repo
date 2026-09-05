@@ -1,10 +1,39 @@
-﻿namespace c__basics
+﻿using System.Text;
+
+namespace c__basics;
+
+internal class Program
 {
-    internal class Program
+
+    class Book
     {
-        static void Main(string[] args)
+        public string title;
+        public int pages;
+
+        public Book(string t, int p)
         {
-            Console.WriteLine("Hello, World!");
+            title = t;
+            pages = p;
         }
+        public override string ToString()
+        {
+            return title + " " + pages;
+        }
+    }
+    static void Main(string[] args)
+    {
+        Book book = new Book("c#" , 100);
+        object obj = book;
+
+        Console.WriteLine(obj);
+        
+
+
+
+
+
+
+
+      
     }
 }

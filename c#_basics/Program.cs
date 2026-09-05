@@ -111,7 +111,16 @@ internal class Program
         Console.WriteLine(pages_as_String);
         Console.WriteLine(pages_as_String.GetType());
 
-        onsole.WriteLine("----------------------------");
+        Console.WriteLine("----------------------------");
+
+        // Boxing 
+        int copies = 100;
+        object objj = copies;
+
+        // un Boxing
+        int un_boxed_Copies = (int)objj;
+
+
 
 
 

@@ -82,6 +82,27 @@ internal class Program
 
         Console.WriteLine("----------------------------");
 
+        string yearText = "2023";
+        int year = int.Parse(yearText);
+        Console.WriteLine(year);
+
+        Console.WriteLine("----------------------------");
+
+        string badText = "abc";
+        int res;
+  
+
+        if ( int.TryParse(badText, out res) )
+        {
+            Console.WriteLine(res);
+        }
+        else
+        {
+            Console.WriteLine("Invalid number");
+        }
+
+
+
 
 
 

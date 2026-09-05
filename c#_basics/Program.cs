@@ -102,6 +102,20 @@ internal class Program
         }
 
 
+        Console.WriteLine("----------------------------");
+
+
+        int pages3 = 464;
+        string pages_as_String = pages3.ToString();
+
+        Console.WriteLine(pages_as_String);
+        Console.WriteLine(pages_as_String.GetType());
+
+        onsole.WriteLine("----------------------------");
+
+
+
+
 
 
 

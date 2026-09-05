@@ -45,6 +45,25 @@ internal class Program
 
         Console.WriteLine("----------------------------");
 
+        try
+        {
+            int x = 10;
+            int y = 0;
+
+            int result = x / y;
+
+            Console.WriteLine(result);
+        }  
+        catch (Exception e)
+        {
+            Console.WriteLine("Cannot divide by zero");
+        }
+        finally
+        {
+            Console.WriteLine("Done");
+        }
+        Console.WriteLine("----------------------------");
+
 
 
 

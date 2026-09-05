@@ -39,6 +39,11 @@ internal class Program
 
         Console.WriteLine("----------------------------");
 
+        // Compile-time error
+
+        int pages = 464;
+
+        Console.WriteLine("----------------------------");
 
 
 

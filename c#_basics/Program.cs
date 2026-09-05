@@ -75,6 +75,15 @@ internal class Program
 
         Console.WriteLine("----------------------------");
 
+        string pagesText = "464";
+        int converte_Pages = Convert.ToInt32(pagesText);
+
+        Console.WriteLine(converte_Pages);
+
+        Console.WriteLine("----------------------------");
+
+
+
 
 
 

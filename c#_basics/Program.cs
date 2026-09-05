@@ -65,7 +65,18 @@ internal class Program
         Console.WriteLine("----------------------------");
 
         int pages1 = 300;
-        double var = pages1; 
+        double var = pages1;
+
+        Console.WriteLine("----------------------------");
+
+        double price = 49.99;
+        int price2 = (int)price;
+        Console.WriteLine(price2);
+
+        Console.WriteLine("----------------------------");
+
+
+
 
 
 

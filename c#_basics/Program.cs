@@ -64,6 +64,9 @@ internal class Program
         }
         Console.WriteLine("----------------------------");
 
+        int pages1 = 300;
+        double var = pages1; 
+
 
 
 
